@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Acciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Reporte de Acciones del Sistema</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Acción</th>
+                <th>Error/resultado</th>
+                <th>Captura de pantalla</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>9:24</td>
+                <td>se  configuro y se creo  la maquina virtual</td>
+                <td class="succes"> se configuro </td>
+                <td><a href="/res/2.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:27</td>
+                <td>obteniendo la key</td>
+                <td class="success">correcto</td>
+                <td><a href="/res/3.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:27</td>
+                <td>se completo la implementacion</td>
+                <td class="success">correcto</td>
+                <td><a href="/res/4.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:30 </td>
+                <td>agregar regla de seguridad de entrada, ip publica</td>
+                <td class="success">correcto</td>
+                <td><a href="/res/5.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:38</td>
+                <td>ingresar a la maquina por Bastion</td>
+                <td class="success">correcto</td>
+                <td><a href="/res/6.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:41</td>
+                <td>inicio como administrador</td>
+                <td class="success">sin errores</td>
+                <td><a href="/res/7.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:42</td>
+                <td>Actualizacion de paquetes</td>
+                <td class="success">se actualizan los paquetes</td>
+                <td><a href="/res/8.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:44</td>
+                <td>Instalacion de apache</td>
+                <td class="success">apache se instalo</td>
+                <td><a href="/res/9.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:45</td>
+                <td>instalacion git</td>
+                <td class="error">Error comando equivocado </td>
+                <td><a href="/res/10.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:46</td>
+                <td>instalacion de git  </td>
+                <td class="success">sin errores se instalo git</td>
+                <td><a href="/res/11.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:49</td>
+                <td>nos movemos a la carpeta /var/www/html</td>
+                <td class="success">nos movemos a la carpeta</td>
+                <td><a href="/res/12.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:51</td>
+                <td>Borrar el index de la ruta y comprobamos </td>
+                <td class="success">index borrado</td>
+                <td><a href="/res/13.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            <tr>
+                <td>9:54</td>
+                <td>crear la carpeta de la seccion y entramos </td>
+                <td class="success">sin errores</td>
+                <td><a href="/res/14.jpg" target="_blank">Ver captura</a></td>
+            </tr>
+            
+            
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
